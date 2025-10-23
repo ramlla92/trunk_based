@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: Banks
+    database: Banks                  # <- source database
+    schema: PUBLIC                   # <- schema where raw tables live
+    tables:
+      - name: Banks_2022_23
+        description: Bank financial metrics for the 2022/23 fiscal year.
+      - name: Banks_2023_24
+        description: Bank financial metrics for the 2023/24 fiscal year.
